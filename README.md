@@ -112,20 +112,28 @@ Understanding crowd dynamics and pedestrian behavior is crucial for ensuring saf
       ```
     - **License**: Open-Source
 
-
 ## Datasets
 
-1. **Dataset Name**: Brief description of the dataset.
-   - [Access Link](#)
-   - Key Features
-   - Usage Instructions
+1. **Jülich Pedestrian Data Archive**: A comprehensive data archive containing pedestrian trajectory data from various experiments.
+   - [Access Link](https://ped.fz-juelich.de/da/doku.php?id=start#data_section)
+   - **Key Features**:
+     - High-quality trajectory data
+     - Multiple experimental setups
+     - Detailed metadata and documentation
+   - **Usage Instructions**:
+     - Visit the access link
+     - Follow the instructions provided to download and use the datasets
 
-2. **Dataset Name**: Brief description of the dataset.
-   - [Access Link](#)
-   - Key Features
-   - Usage Instructions
+2. **External Database of Pedestrian Dynamics**: An extensive collection of external datasets related to pedestrian dynamics, available for research purposes.
+   - [Access Link](https://ped.fz-juelich.de/da/doku.php?id=extdb)
+   - **Key Features**:
+     - Diverse datasets from different sources
+     - Ready-to-use formats
+     - Documentation and usage examples
+   - **Usage Instructions**:
+     - Visit the access link
+     - Follow the instructions provided to download and use the datasets
 
-*...and more!*
 
 ## Contributing
 
