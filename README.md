@@ -18,121 +18,27 @@ Understanding crowd dynamics and pedestrian behavior is crucial for ensuring saf
 
 ## Tools
 
-1. **PedPy**: An open-source, MIT-licensed Python library for pedestrian movement analysis. It provides a high-level interface for extracting fundamental measurements from trajectory data, including velocity, flow, and density.
-   - [Documentation](https://pedpy.readthedocs.io/en/stable/)
-   - [GitHub Repository](https://github.com/PedestrianDynamics/PedPy)
-   - **Key Features**:
-     - Compute fundamental diagrams
-     - Analysis of pedestrian trajectories
-     - Plotting functionalities for visualization
-   - **Installation Instructions**:
-     ```bash
-     pip install pedpy
-     ```
-   - **License**: Open-Source
+| Tool             | Description                                                                                                                                     | Documentation & Repository                                             | Key Features                                                                                     | License       |
+|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------------|
+| **PedPy**        | An open-source, MIT-licensed Python library for pedestrian movement analysis. It provides a high-level interface for extracting fundamental measurements from trajectory data, including velocity, flow, and density. | [Documentation](https://pedpy.readthedocs.io/en/stable/), [GitHub](https://github.com/PedestrianDynamics/PedPy) | - Compute fundamental diagrams<br> - Analysis of pedestrian trajectories<br> - Plotting functionalities for visualization | Open-Source   |
+| **JuPedSim**     | An open-source framework for simulating and analyzing pedestrian dynamics. It supports a variety of simulation and analysis tools tailored for pedestrian movement.                | [Documentation](https://www.jupedsim.org/stable/), [GitHub](https://github.com/PedestrianDynamics/jupedsim)    | - Simulation of pedestrian dynamics<br> - Analysis tools for trajectory data<br> - Visualizations and fundamental diagram computations | Open-Source   |
+| **Vadere**       | An open-source framework for the simulation and analysis of pedestrian dynamics. It offers a variety of models to simulate pedestrian behavior in different environments.              | [Website](https://www.vadere.org/)                                      | - Multiple pedestrian behavior models<br> - Simulation and analysis tools<br> - Extensive visualization capabilities         | Open-Source   |
+| **PeTrack**      | A tool for the empirical analysis of pedestrian dynamics. It allows for the tracking and analysis of pedestrian trajectories from video recordings.                               | [Wiki](https://jugit.fz-juelich.de/ped-dyn-emp/petrack/-/wikis/home)    | - Tracking pedestrian movements from videos<br> - Analysis of pedestrian trajectories<br> - Visualization tools              | Open-Source   |
+| **UMANS**        | Open-source simulation framework for crowd dynamics and pedestrian behavior.                                                                  | [Project Page](https://project.inria.fr/crowdscience/project/ocsr/umans/) | - Agent-based modeling<br> - Customizable pedestrian behaviors<br> - Integration with other simulation tools                  | Open-Source   |
+| **CromoSim**     | A simulation tool for crowd dynamics, focusing on realistic modeling and analysis of pedestrian movements.                                    | [Website](https://www.cromosim.fr/)                                     | - Realistic crowd simulations<br> - Analysis of pedestrian flow and behavior<br> - Visualization tools                          | Open-Source    |
+| **CrowNet**      | An open-source tool for simulating and analyzing crowd dynamics using network-based approaches.                                                | [GitHub Repository](https://github.com/roVer-HM/crownet)               | - Network-based simulation models<br> - Analysis tools for crowd movement<br> - Integration with other simulation frameworks   | Open-Source   |
+| **SocialForce**  | An open-source Python library for simulating pedestrian dynamics using the social force model.                                                 | [GitHub Repository](https://github.com/svenkreiss/socialforce)         | - Social force model implementation<br> - Simulation of pedestrian interactions<br> - Visualization tools                       | Open-Source   |
+| **JPSreport**    | An open-source tool for analyzing pedestrian trajectories and generating reports on pedestrian dynamics.                                       | [Website](https://jupedsim.github.io/jpsreport/)                       | - Analysis of pedestrian trajectories<br> - Reporting tools for pedestrian dynamics<br> - Integration with JuPedSim            | Open-Source   |
+| **PySocialForce**| An open-source Python library for simulating pedestrian dynamics using the social force model.                                                 | [GitHub Repository](https://github.com/yuxiang-gao/PySocialForce)      | - Social force model implementation<br> - Simulation and analysis tools<br> - Visualization capabilities                       | Open-Source   |
 
-2. **JuPedSim**: An open-source framework for simulating and analyzing pedestrian dynamics. It supports a variety of simulation and analysis tools tailored for pedestrian movement.
-   - [Documentation](https://www.jupedsim.org/stable/)
-   - [GitHub Repository](https://github.com/PedestrianDynamics/jupedsim)
-   - **Key Features**:
-     - Simulation of pedestrian dynamics
-     - Analysis tools for trajectory data
-     - Visualizations and fundamental diagram computations
-   - **License**: Open-Source
-
-3. **Vadere**: An open-source framework for the simulation and analysis of pedestrian dynamics. It offers a variety of models to simulate pedestrian behavior in different environments.
-   - [Website](https://www.vadere.org/)
-   - **Key Features**:
-     - Multiple pedestrian behavior models
-     - Simulation and analysis tools
-     - Extensive visualization capabilities
-   - **License**: Open-Source
-
-4. **PeTrack**: A tool for the empirical analysis of pedestrian dynamics. It allows for the tracking and analysis of pedestrian trajectories from video recordings.
-   - [Wiki](https://jugit.fz-juelich.de/ped-dyn-emp/petrack/-/wikis/home)
-   - **Key Features**:
-     - Tracking pedestrian movements from videos
-     - Analysis of pedestrian trajectories
-     - Visualization tools
-   - **License**: Open-Source
-
-5. **UMANS**: Open-source simulation framework for crowd dynamics and pedestrian behavior.
-   - [Project Page](https://project.inria.fr/crowdscience/project/ocsr/umans/)
-   - **Key Features**:
-     - Agent-based modeling
-     - Customizable pedestrian behaviors
-     - Integration with other simulation tools
-   - **License**: Open-Source
-
-6. **CromoSim**: A simulation tool for crowd dynamics, focusing on realistic modeling and analysis of pedestrian movements.
-   - [Website](https://www.cromosim.fr/)
-   - **Key Features**:
-     - Realistic crowd simulations
-     - Analysis of pedestrian flow and behavior
-     - Visualization tools
-   - **License**: Commercial
-
-7. **CrowNet**: An open-source tool for simulating and analyzing crowd dynamics using network-based approaches.
-   - [GitHub Repository](https://github.com/roVer-HM/crownet)
-   - **Key Features**:
-     - Network-based simulation models
-     - Analysis tools for crowd movement
-     - Integration with other simulation frameworks
-   - **License**: Open-Source
-
-8. **SocialForce**: An open-source Python library for simulating pedestrian dynamics using the social force model.
-   - [GitHub Repository](https://github.com/svenkreiss/socialforce)
-   - **Key Features**:
-     - Social force model implementation
-     - Simulation of pedestrian interactions
-     - Visualization tools
-   - **Installation Instructions**:
-     ```bash
-     pip install socialforce
-     ```
-   - **License**: Open-Source
-
-9. **JPSreport**: An open-source tool for analyzing pedestrian trajectories and generating reports on pedestrian dynamics.
-   - [Website](https://jupedsim.github.io/jpsreport/)
-   - **Key Features**:
-     - Analysis of pedestrian trajectories
-     - Reporting tools for pedestrian dynamics
-     - Integration with JuPedSim
-   - **License**: Open-Source
-
-10. **PySocialForce**: An open-source Python library for simulating pedestrian dynamics using the social force model.
-    - [GitHub Repository](https://github.com/yuxiang-gao/PySocialForce)
-    - **Key Features**:
-      - Social force model implementation
-      - Simulation and analysis tools
-      - Visualization capabilities
-    - **Installation Instructions**:
-      ```bash
-      pip install pysocialforce
-      ```
-    - **License**: Open-Source
 
 ## Datasets
 
-1. **Jülich Pedestrian Data Archive**: A comprehensive data archive containing pedestrian trajectory data from various experiments.
-   - [Access Link](https://ped.fz-juelich.de/da/doku.php?id=start#data_section)
-   - **Key Features**:
-     - High-quality trajectory data
-     - Multiple experimental setups
-     - Detailed metadata and documentation
-   - **Usage Instructions**:
-     - Visit the access link
-     - Follow the instructions provided to download and use the datasets
+| Dataset                                        | Description                                                                                                             | Access Link                                                                                   | Key Features                                                         | Usage Instructions                                      |
+|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------|----------------------------------------------------------|
+| **Jülich Pedestrian Data Archive**             | A comprehensive data archive containing pedestrian trajectory data from various experiments.                            | [Access Link](https://ped.fz-juelich.de/da/doku.php?id=start#data_section)                    | - High-quality trajectory data<br> - Multiple experimental setups<br> - Detailed metadata and documentation | Visit the access link and follow the provided instructions to download and use the datasets. |
+| **External Database of Pedestrian Dynamics**   | An extensive collection of external datasets related to pedestrian dynamics, available for research purposes.            | [Access Link](https://ped.fz-juelich.de/da/doku.php?id=extdb)                                 | - Diverse datasets from different sources<br> - Ready-to-use formats<br> - Documentation and usage examples  | Visit the access link and follow the provided instructions to download and use the datasets. |
 
-2. **External Database of Pedestrian Dynamics**: An extensive collection of external datasets related to pedestrian dynamics, available for research purposes.
-   - [Access Link](https://ped.fz-juelich.de/da/doku.php?id=extdb)
-   - **Key Features**:
-     - Diverse datasets from different sources
-     - Ready-to-use formats
-     - Documentation and usage examples
-   - **Usage Instructions**:
-     - Visit the access link
-     - Follow the instructions provided to download and use the datasets
 
 
 ## Contributing
