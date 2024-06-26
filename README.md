@@ -2,7 +2,7 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-This repository is dedicated to providing a curated collection of open-source tools and resources for the study and analysis of crowd dynamics, pedestrian flow, and evacuation strategies.
+This repository is dedicated to providing a curated collection of open-source and commercial tools and resources for the study and analysis of crowd dynamics, pedestrian flow, and evacuation strategies.
 
 ## Table of Contents
 
